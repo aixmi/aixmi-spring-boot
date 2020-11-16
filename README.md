@@ -1,1 +1,1 @@
-# spring-boot-aixmi
+# aixmi-spring-boot
