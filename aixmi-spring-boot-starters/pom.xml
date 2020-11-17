@@ -11,4 +11,8 @@
 	<packaging>pom</packaging>
 	<name>aixmi-spring-boot-starters</name>
 
+	<modules>
+		<module>aixmi-spring-boot-starter-web-exception</module>
+	</modules>
+
 </project>
