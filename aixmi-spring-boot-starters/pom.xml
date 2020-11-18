@@ -24,6 +24,7 @@
 		<module>aixmi-spring-boot-starter-schedule</module>
 		<module>aixmi-spring-boot-starter-feign</module>
 		<module>aixmi-spring-boot-starter-tomcat</module>
+		<module>aixmi-spring-boot-starter-repeat-submit</module>
 	</modules>
 
 </project>
