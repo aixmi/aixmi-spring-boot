@@ -9,7 +9,7 @@
 		<version>${revision}</version>
 	</parent>
 
-	<artifactId>aixmi-spring-boot-starter-web-exception</artifactId>
-	<name>aixmi-spring-boot-starter-web-exception</name>
+	<artifactId>aixmi-spring-boot-starter-message-converter</artifactId>
 
+	<name>aixmi-spring-boot-starter-message-converter</name>
 </project>

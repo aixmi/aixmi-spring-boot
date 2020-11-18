@@ -12,7 +12,18 @@
 	<name>aixmi-spring-boot-starters</name>
 
 	<modules>
+		<module>aixmi-spring-boot-starter-web</module>
 		<module>aixmi-spring-boot-starter-web-exception</module>
+		<module>aixmi-spring-boot-starter-message-converter</module>
+		<module>aixmi-spring-boot-starter-swagger</module>
+		<module>aixmi-spring-boot-starter-cache</module>
+		<module>aixmi-spring-boot-starter-lock</module>
+		<module>aixmi-spring-boot-starter-mybatis</module>
+		<module>aixmi-spring-boot-starter-jpa</module>
+		<module>aixmi-spring-boot-starter-logging</module>
+		<module>aixmi-spring-boot-starter-schedule</module>
+		<module>aixmi-spring-boot-starter-feign</module>
+		<module>aixmi-spring-boot-starter-tomcat</module>
 	</modules>
 
 </project>

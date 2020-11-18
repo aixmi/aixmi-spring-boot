@@ -24,6 +24,7 @@
 		<module>aixmi-spring-boot-starters</module>
 		<module>aixmi-spring-boot-samples</module>
 		<module>aixmi-spring-boot-doc</module>
+
 	</modules>
 
 	<build>

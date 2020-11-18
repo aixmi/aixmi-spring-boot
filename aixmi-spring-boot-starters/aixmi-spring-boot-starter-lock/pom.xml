@@ -9,7 +9,8 @@
 		<version>${revision}</version>
 	</parent>
 
-	<artifactId>aixmi-spring-boot-starter-web-exception</artifactId>
-	<name>aixmi-spring-boot-starter-web-exception</name>
+	<artifactId>aixmi-spring-boot-starter-lock</artifactId>
+
+	<name>aixmi-spring-boot-starter-lock</name>
 
 </project>
