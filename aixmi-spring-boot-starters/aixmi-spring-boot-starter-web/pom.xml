@@ -24,5 +24,15 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>io.github.aixmi</groupId>
+			<artifactId>aixmi-spring-boot-starter-message-converter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.github.aixmi</groupId>
+			<artifactId>aixmi-spring-boot-starter-web-exception</artifactId>
+		</dependency>
+
 	</dependencies>
 </project>
