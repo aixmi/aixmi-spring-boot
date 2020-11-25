@@ -14,18 +14,93 @@
 	<packaging>pom</packaging>
 	<name>aixmi-spring-boot-dependencies</name>
 
-	<properties>
-		<spring.boot.version>2.4.0</spring.boot.version>
-	</properties>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-dependencies</artifactId>
-				<version>${spring.boot.version}</version>
+				<version>${revision}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<!--			aixmi framework-->
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-framework-dependencies</artifactId>
+				<version>${aixmi.framework.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!--		自定义starter 开始-->
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-web</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-web-exception</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-message-converter</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-swagger</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-cache</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-lock</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-mybatis</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-jpa</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-logging</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-schedule</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-feign</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-tomcat</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-repeat-submit</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<!--		自定义starter 结束-->
 		</dependencies>
+
+
 	</dependencyManagement>
 </project>
