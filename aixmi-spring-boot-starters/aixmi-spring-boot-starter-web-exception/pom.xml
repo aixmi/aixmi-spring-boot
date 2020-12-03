@@ -12,4 +12,27 @@
 	<artifactId>aixmi-spring-boot-starter-web-exception</artifactId>
 	<name>aixmi-spring-boot-starter-web-exception</name>
 
+	<dependencies>
+		<dependency>
+			<groupId>io.github.aixmi</groupId>
+			<artifactId>aixmi-framework-common</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+		</dependency>
+	</dependencies>
 </project>
