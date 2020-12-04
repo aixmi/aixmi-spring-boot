@@ -1,5 +1,6 @@
 package io.github.aixmi.web.ex;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,7 +16,8 @@ import static org.springframework.boot.autoconfigure.condition.ConditionalOnWebA
 public class WebExceptionAutoConfiguration {
 
 	@Bean
-	public ExceptionCollector webExceptionHandling() {
-		return new ExceptionCollector();
+	@ConditionalOnMissingBean(WebExceptionCollector.class)
+	public WebExceptionCollector webExceptionHandling() {
+		return new WebExceptionCollector();
 	}
 }
