@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+io.github.aixmi.spring.boot.swagger.SwaggerAutoConfiguration
+
