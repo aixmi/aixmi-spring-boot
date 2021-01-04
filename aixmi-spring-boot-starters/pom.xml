@@ -25,6 +25,7 @@
 		<module>aixmi-spring-boot-starter-feign</module>
 		<module>aixmi-spring-boot-starter-tomcat</module>
 		<module>aixmi-spring-boot-starter-repeat-submit</module>
+		<module>aixmi-spring-boot-starter-extension</module>
 	</modules>
 
 </project>
