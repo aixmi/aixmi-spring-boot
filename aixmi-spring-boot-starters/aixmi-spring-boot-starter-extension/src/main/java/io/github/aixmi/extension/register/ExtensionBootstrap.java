@@ -8,6 +8,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 import java.util.Map;
 
@@ -25,6 +26,7 @@ public class ExtensionBootstrap implements ApplicationContextAware {
 
 	private ApplicationContext applicationContext;
 
+	@PostConstruct
 	public void init() {
 		Map<String, Object> extensionBeans = applicationContext.getBeansWithAnnotation(Extension.class);
 		extensionBeans.values().forEach(
