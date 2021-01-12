@@ -26,6 +26,7 @@
 		<module>aixmi-spring-boot-starter-extension</module>
 		<module>aixmi-spring-boot-starter-mq</module>
 		<module>aixmi-spring-boot-starter-redis</module>
+		<module>aixmi-spring-boot-starter-multi-datasource</module>
 	</modules>
 
 </project>

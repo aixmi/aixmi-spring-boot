@@ -9,14 +9,13 @@
 		<version>${revision}</version>
 	</parent>
 
-	<artifactId>aixmi-spring-boot-starter-mybatis</artifactId>
-
-	<name>aixmi-spring-boot-starter-mybatis</name>
+	<artifactId>aixmi-spring-boot-starter-multi-datasource</artifactId>
+	<name>aixmi-spring-boot-starter-multi-datasource</name>
 	<dependencies>
 		<dependency>
 			<groupId>com.baomidou</groupId>
-			<artifactId>mybatis-plus-boot-starter</artifactId>
-			<version>${mybatis-plus.version}</version>
+			<artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+			<version>${multi-datasource.version}</version>
 		</dependency>
 	</dependencies>
 

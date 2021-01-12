@@ -20,6 +20,8 @@
 
 		<redisson.version>3.14.0</redisson.version>
 		<rocketmq.version>2.1.1</rocketmq.version>
+		<multi-datasource.version>3.3.1</multi-datasource.version>
+		<mybatis-plus.version>3.4.1</mybatis-plus.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
