@@ -55,12 +55,7 @@
 			</dependency>
 			<dependency>
 				<groupId>io.github.aixmi</groupId>
-				<artifactId>aixmi-spring-boot-starter-cache</artifactId>
-				<version>${revision}</version>
-			</dependency>
-			<dependency>
-				<groupId>io.github.aixmi</groupId>
-				<artifactId>aixmi-spring-boot-starter-lock</artifactId>
+				<artifactId>aixmi-spring-boot-starter-redis</artifactId>
 				<version>${revision}</version>
 			</dependency>
 			<dependency>

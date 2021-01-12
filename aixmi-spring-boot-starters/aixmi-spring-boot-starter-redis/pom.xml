@@ -9,8 +9,14 @@
 		<version>${revision}</version>
 	</parent>
 
-	<artifactId>aixmi-spring-boot-starter-lock</artifactId>
+	<artifactId>aixmi-spring-boot-starter-redis</artifactId>
 
-	<name>aixmi-spring-boot-starter-lock</name>
-
+	<name>aixmi-spring-boot-starter-redis</name>
+	<dependencies>
+		<dependency>
+			<groupId>org.redisson</groupId>
+			<artifactId>redisson-spring-boot-starter</artifactId>
+			<version>${redisson.version}</version>
+		</dependency>
+	</dependencies>
 </project>

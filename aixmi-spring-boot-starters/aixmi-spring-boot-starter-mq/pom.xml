@@ -9,8 +9,15 @@
 		<version>${revision}</version>
 	</parent>
 
-	<artifactId>aixmi-spring-boot-starter-cache</artifactId>
+	<artifactId>aixmi-spring-boot-starter-mq</artifactId>
 
-	<name>aixmi-spring-boot-starter-cache</name>
+	<name>aixmi-spring-boot-starter-mq</name>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.rocketmq</groupId>
+			<artifactId>rocketmq-spring-boot-starter</artifactId>
+			<version>${rocketmq.version}</version>
+		</dependency>
+	</dependencies>
 </project>

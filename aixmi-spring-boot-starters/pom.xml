@@ -16,8 +16,6 @@
 		<module>aixmi-spring-boot-starter-web-exception</module>
 		<module>aixmi-spring-boot-starter-message-converter</module>
 		<module>aixmi-spring-boot-starter-swagger</module>
-		<module>aixmi-spring-boot-starter-cache</module>
-		<module>aixmi-spring-boot-starter-lock</module>
 		<module>aixmi-spring-boot-starter-mybatis</module>
 		<module>aixmi-spring-boot-starter-jpa</module>
 		<module>aixmi-spring-boot-starter-logging</module>
@@ -26,6 +24,8 @@
 		<module>aixmi-spring-boot-starter-tomcat</module>
 		<module>aixmi-spring-boot-starter-repeat-submit</module>
 		<module>aixmi-spring-boot-starter-extension</module>
+		<module>aixmi-spring-boot-starter-mq</module>
+		<module>aixmi-spring-boot-starter-redis</module>
 	</modules>
 
 </project>
