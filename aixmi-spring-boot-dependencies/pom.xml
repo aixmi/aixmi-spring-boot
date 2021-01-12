@@ -98,6 +98,16 @@
 				<artifactId>aixmi-spring-boot-starter-multi-datasource</artifactId>
 				<version>${revision}</version>
 			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-cache</artifactId>
+				<version>${revision}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-starter-lock</artifactId>
+				<version>${revision}</version>
+			</dependency>
 			<!--		自定义starter 结束-->
 		</dependencies>
 
