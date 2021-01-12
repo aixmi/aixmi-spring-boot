@@ -15,6 +15,7 @@
 
 	<modules>
 		<module>aixmi-spring-boot-sample-web-exception</module>
+		<module>aixmi-spring-boot-sample-redis</module>
 	</modules>
 
 </project>

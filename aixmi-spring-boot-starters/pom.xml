@@ -27,6 +27,8 @@
 		<module>aixmi-spring-boot-starter-mq</module>
 		<module>aixmi-spring-boot-starter-redis</module>
 		<module>aixmi-spring-boot-starter-multi-datasource</module>
+		<module>aixmi-spring-boot-starter-cache</module>
+		<module>aixmi-spring-boot-starter-lock</module>
 	</modules>
 
 </project>

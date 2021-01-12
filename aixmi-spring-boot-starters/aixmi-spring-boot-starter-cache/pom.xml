@@ -9,18 +9,9 @@
 		<version>${revision}</version>
 	</parent>
 
-	<artifactId>aixmi-spring-boot-starter-logging</artifactId>
+	<artifactId>aixmi-spring-boot-starter-cache</artifactId>
 
-	<name>aixmi-spring-boot-starter-logging</name>
-	<dependencies>
-		<dependency>
-			<groupId>io.github.aixmi</groupId>
-			<artifactId>aixmi-framework-logging</artifactId>
-		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-logging</artifactId>
-		</dependency>
-	</dependencies>
+	<name>aixmi-spring-boot-starter-cache</name>
+
 </project>
