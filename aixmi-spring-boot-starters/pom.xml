@@ -29,6 +29,7 @@
 		<module>aixmi-spring-boot-starter-multi-datasource</module>
 		<module>aixmi-spring-boot-starter-cache</module>
 		<module>aixmi-spring-boot-starter-lock</module>
+		<module>aixmi-spring-boot-starter-error-code</module>
 	</modules>
 
 </project>
