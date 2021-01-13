@@ -14,4 +14,15 @@
 
 	<name>aixmi-spring-boot-starter-cache</name>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-cache</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.github.aixmi</groupId>
+			<artifactId>aixmi-spring-boot-starter-redis</artifactId>
+		</dependency>
+	</dependencies>
+
 </project>
